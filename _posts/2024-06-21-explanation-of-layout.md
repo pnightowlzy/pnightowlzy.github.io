@@ -32,3 +32,5 @@ mindmap2: false
 
 
 
+# 配置评论
+https://www.lixueduan.com/posts/blog/02-add-giscus-comment/
