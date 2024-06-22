@@ -57,12 +57,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: Ying Peng
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: pnightowlzy
+location: Shenzhen, China
+email: pnightowl.py@gmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -184,10 +184,10 @@ beaudar:
     repo: mzlogin/blog-comments
 # giscus 配置参考：https://giscus.app/zh-CN
 giscus:
-    repo: mzlogin/blog-comments
-    repo-id: MDEwOlJlcG9zaXRvcnk5MzEyNzkxNw==
+    repo: pnightowlzy/page_comments
+    repo-id: R_kgDOMMvOOQ
     category: Announcements
-    category-id: DIC_kwDOBY0E7c4CRtg9
+    category-id: DIC_kwDOMMvOOc4CgSGh
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
