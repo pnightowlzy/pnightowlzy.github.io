@@ -54,6 +54,7 @@ triton 在部署的过程中可以部署多个模型，同时可以将多个模�
 需要用户定义好，出入参数，使用到的模型和数据流, 同一个ensemble中的模型簇可以使用所有其他模型的输出和输入（依赖条件满足的情况下）。
 
 # 模型转换
+keras模型（tf模型）转 graphdef模型
 ```python
 from keras.models import load_model
 from keras import backend as K
@@ -69,7 +70,7 @@ def freeze_session(session, keep_var_names=None, output_names=None, clear_device
         if clear_devices:
             for node in input_graph_def.node:
                 node.device = ""
-                
+
         frozen_graph = convert_variables_to_constants(
             session,
             input_graph_def,
