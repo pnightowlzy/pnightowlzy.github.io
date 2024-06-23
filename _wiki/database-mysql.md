@@ -1,8 +1,8 @@
 ---
 layout: wiki
-title: MySQL Script
+title: MySQL
 cate1: Python
-cate2: MySQL
+cate2: Database
 description: Python MySQL 库脚本
 keywords: MySQL
 ---

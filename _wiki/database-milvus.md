@@ -1,8 +1,8 @@
 ---
 layout: wiki
-title: Milvus Script
+title: Milvus 
 cate1: Python
-cate2: Milvus
+cate2: Database
 description: Python Milvus 库脚本
 keywords: milvus
 ---
