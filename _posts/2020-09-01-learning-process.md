@@ -37,6 +37,7 @@ mindmap2: false
 # 工作总结
 ## 2022
 1. 对话系统的开发和设计
+   
 ## 2023
 1. LLM API Bot 开发
 2. Embedding 模型训练+调研
@@ -44,6 +45,7 @@ mindmap2: false
 4. RAG 模块开发
 5. Bowen Entrance 开发
 6. 对话系统的开发和设计
+
 ## 2024
 1. Triton inference server building
 2. LLM NER 能力开发
