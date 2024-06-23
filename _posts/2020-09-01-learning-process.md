@@ -15,12 +15,12 @@ mindmap2: false
 ---
 
 # 学习计划
-## 2022年
+## 2022
 - [x] `Golang`编程
 - [x] `Linux` 操作系统
 - [x] `Docker` 容器使用
-## 2023年
-- [x]  `C++` 基本语法
+## 2023
+- [x] `C++` 基本语法
 - [x] `streamlit` 基本用法
 - [x] 各种数据库的（mysql、milvus、es、minio、redis、etcd）使用方法和api熟悉 
 - [x] Prompt Engineering
