@@ -24,7 +24,7 @@ class MilvusClient:
     def insert_vectors(self, collection_name, records):
         status = self.client.insert(collection_name, records)
 
-    def get_all_vectors(self, collection_name， dim): # 使用search的方式来获取所有的results
+    def get_all_vectors(self, collection_name, dim): # 使用search的方式来获取所有的results
         status, vector_cnt = client.count_entities(collection_name)
         print("{} {} vector count: {}".format(collection_name, status, vector_cnt))
         status, results = self.client.search(collection_name,  query_records=[[0]*dim], top_k=vector_cnt, params={"nprobe":16, "ef":vector_cnt+100})
