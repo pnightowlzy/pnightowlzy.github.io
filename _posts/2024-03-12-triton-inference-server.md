@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Triton Inference Server 你需要了解的加速推理框架
-categories: [知识学习]
+categories: [知识学习, 推理框架]
 description: triton，常用工程化加速推理框架
 keywords: triton, 推理框架, 加速推理框架
 mermaid: false
