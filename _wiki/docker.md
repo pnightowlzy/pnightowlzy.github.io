@@ -2,7 +2,7 @@
 layout: wiki
 title: Docker
 cate1: Tools
-cate2: Container
+cate2: Cloud Computing
 description: 常见Docker指令
 keywords: docker
 ---
