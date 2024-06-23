@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://pnightowlzy.github.io/
+url: https://pnightowlzy.github.io
 date_format: "ordinal"
 title: 为人民服务
 subtitle: "交个朋友"
