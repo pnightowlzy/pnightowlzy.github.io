@@ -16,7 +16,8 @@ triton-inference-server服务常用于加速模型推理，是模型部署的关
 triton 在部署的过程中可以部署多个模型，同时可以将多个模型进行串联，类似之前pipeline的形式，在triton中的定义叫做ensemble。
 
 这里的模型可以是直接通过制定platform加入的模型权重，也可以是用python脚本（platform: python）写的数据预处理方式，分词服务，后处理方式的自定义模型。
-在部署模型推理服务时，我们需要将模型转换为triton-inference-server可加载的backend，目前可加载的backend可以在下面的链接中找到：https://github.com/triton-inference-server/backend/blob/main/README.md#triton-backend-api。
+在部署模型推理服务时，我们需要将模型转换为triton-inference-server可加载的backend，目前可加载的backend可以在下面的链接中找到：
+[点击链接](https://github.com/triton-inference-server/backend/blob/main/README.md#triton-backend-api)
 
 # 模型配置
 在定义一个 triton 推理模型时，我们需要定义以下内容，模型的平台（backend），单次能够请求的最大数目，入参以及出参。
@@ -45,12 +46,12 @@ triton 在部署的过程中可以部署多个模型，同时可以将多个模�
 ```
 在python脚本中出入参数的名称和类型都比较好理解，你可以通过triton所提供的api来获取到对应名称的具体内容，但如果是通过模型加载的话，出入参数的名称需要在导出推理模型时就定义好，如果没有办法对齐，推理会失败。
 
-具体的名称解释可以在这里查看：https://github.com/triton-inference-server/server/blob/main/docs/user_guide/model_configuration.md
+具体的名称解释可以在[这里](https://github.com/triton-inference-server/server/blob/main/docs/user_guide/model_configuration.md)查看.
 
-可支持的数据类型：https://github.com/triton-inference-server/server/blob/main/docs/user_guide/model_configuration.md#datatypes
+可支持的[数据类型](https://github.com/triton-inference-server/server/blob/main/docs/user_guide/model_configuration.md#datatypes)。
 
 # Ensemble配置
-这里提供了具体的示例，https://github.com/triton-inference-server/server/blob/main/docs/user_guide/architecture.md#ensemble-models
+这里提供了具体的示例，[点击链接](https://github.com/triton-inference-server/server/blob/main/docs/user_guide/architecture.md#ensemble-models)
 需要用户定义好，出入参数，使用到的模型和数据流, 同一个ensemble中的模型簇可以使用所有其他模型的输出和输入（依赖条件满足的情况下）。
 
 # 模型转换
