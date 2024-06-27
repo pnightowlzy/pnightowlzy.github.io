@@ -1,15 +1,17 @@
 - name: AI Engineer Keywords
   keywords:
-      - Chatbot
+      - Dialogue Systems
       - Semantic Similarity
       - NL2SQL
-      - LLM Implementation
+      - LLM Application
       - Triton
+      - Dialog Classification
 
 - name: Software Engineer Keywords
   keywords:
       - Go
       - C++
       - Python
+      - Shell
 
 
