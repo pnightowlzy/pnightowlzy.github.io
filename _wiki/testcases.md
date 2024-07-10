@@ -6,6 +6,8 @@ cate2:
 description: 个人技能树思维导图
 keywords: 技能树, 思维导图, mindmap, 脑图
 ---
+
+```mindmap
 # CoreFunctions
 ## ID
 ### R01
@@ -142,3 +144,4 @@ keywords: 技能树, 思维导图, mindmap, 脑图
 ##### 前台手工输入折扣: 人工金额优惠/人工比例优惠。柜面业务都支持人工优惠，由人工可进行手工输入折扣（优惠金额或比例），柜面系统根据计费系统返回应收金额和人工输入的折扣计算实收金额（此功能由前台完成）。
 #### Dependencies/Associations
 ##### None
+```
