@@ -161,4 +161,13 @@ Pratical approach to finetuning
 6. Evaluate your LLM to know what's going well vs. not
 7. Collect more data to improve
 8. Increase task complexity
-9. Increase model size for performance
+9. Increase model size for 
+
+## Model size x Compute
+![resource](/images/posts/finetuning_llms/resources.png)
+
+## Parameters Efficient finetuning
+![finetuning methods](/images/posts/finetuning_llms/finetuning-methods.png)
+
+# Practice
+跑通训练脚本：https://learn.deeplearning.ai/courses/finetuning-large-language-models/lesson/6/training-process
