@@ -118,4 +118,47 @@ Finetuning for generative tasks is not well-defined:
 ## Examples
 这里的例子主要是构造训练数据，需要通过构造特定的输入，让模型能够学会我们想要的回答的格式。
 
+# Instruction finetuning
+Instruction finetuning(reasoning, routing, copilot, caht, agents) is part of finetuning.
+data: FAQs, Customer support service, etc.
 
+## Training Process
+Data Prep -> Training -> Evaluation -> Data Prep ...
+
+## Examples
+比较了base model和finetuning model的实际效果。
+
+# Data preparation
+Garbage In -> Garbage out
+
+## Steps
+1. Collect instruction-response pairs
+2. Concatenate pairs
+3. Tokenize: Pad, Truncate
+4. Split into train/test
+
+## Example
+整个流程跟训练其他的模型并没有什么很大区别。
+
+# Evaluation and iteration
+Human Evaluation
+Test Suites
+Elo Rankings
+## LLM Benchmarks: Suite of Evaluation Methods
+Common LLM benchmarks
+- ARC is a set of grade-school questions
+- HellaSwag is a test of common sense
+- MMLU is a multitask metric covering elementary math, US history, computer science, law and more
+- TruthfulQA measures a model's prepensity to reproduce falsehoods commonly found online.
+
+# Consideration
+Pratical approach to finetuning
+1. Figure out your task
+2. Collect data related to the task's inputs/outputs
+3. Generate data if you don't have enough data
+4. Finetune a small model(e.g. 400M-1B)
+5. Vary the amount of data you give the model
+6. Evaluate your LLM to know what's going well vs. not
+7. Collect more data to improve
+8. Increase task complexity
+9. Increase model size for performance
