@@ -9,7 +9,7 @@ keywords: docker
 
 构建docker容器：
 ```bash
-nvidia-docker run -itd -v /data/pengying/llm-finetuning:/build  -p 8222:8888 -p 10086:22 -p 6000:6000  -e JUPYTER_ENABLE_LAB=yes  --workdir /build  --name py_torch_gpu  nvcr.io/nvidia/pytorch:23.10-py3 bash 
+nvidia-docker run -itd -v /data/pengying/llm-finetuning:/build  -p 8222:8888 -p 10086:22 -p 6000:6000  -e JUPYTER_ENABLE_LAB=yes  --workdir /build  --name py_torch_gpu  nvcr.io/nvidia/pytorch:21.10-py3 bash 
 ```
 修改配置
 ```bash
