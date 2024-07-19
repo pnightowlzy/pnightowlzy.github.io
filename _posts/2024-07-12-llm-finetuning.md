@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Finetuning Large Language Models
+title: Finetuning Large Language Models 理论介绍
 categories: [NLP, LLM]
 description: 大模型微调
 keywords: LLM, finetuning
