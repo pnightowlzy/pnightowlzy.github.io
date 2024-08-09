@@ -6,7 +6,6 @@ cate2: Web development
 description: web 开发之API接口文档
 keywords: API, GO
 ---
-制作API文件，是前后端开发人员之间沟通的桥梁。
 
 参考：https://github.com/swaggo/swag/blob/master/README_zh-CN.md
 
@@ -73,7 +72,7 @@ _ "server_name/docs"
 go get -u github.com/swaggo/swag  
 ```
 
-2. 没有找到docs。
+2. 没有找到docs
 需要在main中加入文件引用。
 ```go
 _ "server_name/docs"
