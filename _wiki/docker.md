@@ -201,3 +201,6 @@ docker commit mycontainer mynewimage:1.0
 - `-p`, `--pause`: 提交时暂停容器运行
 
 这个命令会创建一个新的 Docker 镜像，包含了运行 `mycontainer` 的所有的文件系统的改变。
+
+# 服务器内存不足
+docker system prune -a
