@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: Commands 
-cate1: Programming
+title: 模型训练 
+cate1: Deep Learning
 cate2: Commands
 description: 最常用指令
 keywords: linux, programming, commands
@@ -28,6 +28,15 @@ sed -i 's/old_string/new_string/g' file.txt
 ### 查看系统使用内存
 ```
 top -m
+```
+#### 监听内存占用
+```
+docker stats | grep container_name > log.txt
+```
+#### 监听GPU使用情况
+```
+# 每隔1秒显示一次
+watch -n 1 nvidia-smi > log.txt
 ```
 
 ### 跨服务器拷贝文件
